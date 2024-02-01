@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+
+
+nav {
+    width: 100%;
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    /* padding-bottom: 200px; */
+}
+
+
+nav .logo {
+    color: white;
+}
+
+
+nav .menu {
+    display: flex;
+    gap: 10px;
+}
+
+nav .menu a {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+.menu a:hover{
+    color: orange;
+}
+.body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    gap:50px;
+}
+.body h1{
+    font-size: 60px;
+}
+.box1{
+    display: flex;
+    align-items: center;
+}
+ .box2 img{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ .box4 a{
+    text-decoration: none;
+    background-color: orange;
+    color:black;
+    padding: 8px 8px;
+}
+ .text{
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.heading a{
+    text-decoration: none;
+    border: 5px solid orange;
+    background-color:orange;
+    color:black;
+    padding: 5px 5px;
+} 
+
+ .img{
+    width: 350px;
+    height: 350px;
+}
+
+.text .img img{
+    width: 100%;
+}
+
+.products .cards{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 200px;
+ }
+ .products h1{
+    padding: 100px; 
+ }
+
+ol{
+    list-style-type: none;
+}
+li{
+    margin: 10px;
+    padding: 5px;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+        text-decoration: none;
+        background-color: orange;
+        color: black;
+        padding: 8px 10px;
+    }
+
+.mocha{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    border:2px solid orange;
+    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr{
+    width: 50%;
+    border: 1px solid orange;
+    margin: 0 auto;
+}
+
+
+.inf{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     padding: 150px 0px;
+}
+.part {
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: space-between;
+gap: 15px;
+}
+.inf b{
+color: orange;
+}
+.part4{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
